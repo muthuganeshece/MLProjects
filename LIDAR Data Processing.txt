@@ -1,0 +1,5 @@
+LIDAR system based Smoke concentration measurement for reactor building
+In fast reactors, liquid metal sodium is used as coolant due to its high conductivity.
+Liquid sodium exothermically reacts with air/water and generates invisible sodium aerosols which.
+The concentration
+
