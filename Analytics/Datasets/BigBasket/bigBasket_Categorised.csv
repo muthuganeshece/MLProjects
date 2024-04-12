@@ -1,0 +1,225 @@
+Description,cat,sub cat,cat
+Other Sauces,oms,s,f
+Cashews,f,n,f
+Other Dals,rd,d,g
+Namkeen,sb,s,ss
+Sugar,oms,m,g
+Banana,v,f,v
+Sugar Cubes,oms,m,g
+Other Sweets,sb,s,ss
+Other Rice Products,rd,r,g
+Utensil Scrub Pads,k,,k
+Toor Dal,rd,d,g
+Buns & Pavs,b,,b
+Cakes,b,,b
+Boiled Rice,rd,r,g
+Urad Dal,rd,d,g
+Jaggery,oms,m,g
+Raisins,f,n,f
+Chips,sb,s,ss
+Almonds,f,n,f
+Root Vegetables,v,v,v
+Other Vegetables,v,v,v
+Moong Dal,rd,d,g
+Healthy Snacks,sb,s,ss
+Raw Peanuts,sb,s,f
+Mosquito Repellent,h,,h
+Whole Spices,oms,m,g
+Soya Products,f,,g
+Beans,v,v,v
+Health Drinks,be,be,be
+Liquid Soaps & Bars,bb,bb,p
+Washing Bars,k,c,k
+Ghee,oms,o,o
+Organic F&V,v,f,v
+Sunflower Oils,oms,o,o
+Shoe Polish,p,,p
+Cream Biscuits,sb,b,ss
+Cookies,sb,b,b
+Snacky Nuts,sb,s,ss
+Avalakki / Poha,rd,r,g
+Besan,rdf,f,g
+Raw Rice,rd,r,g
+Powdered Spices,oms,m,sp
+Eggs,f,meat,f
+Corn Snacks,sb,s,ss
+Bread,bf,,b
+Instant Noodles,i,i,f
+Sooji & Rava,rdf,f,f
+Gourd & Cucumber,v,v,v
+"Shaving Cream, Foam & Gels",p,,p
+Brinjals,v,v,v
+Hair Oil,p,,p
+Ground Coffee,f,tc,f
+Other Dry Fruits,f,n,f
+Basmati Rice,rd,r,f
+Face Wash,bath,,p
+Yogurt & Lassi,d,,d
+Wafers,i,,ss
+Instant Pastas,i,,f
+Cooking Paste,c,,f
+Other Flours,rdf,f,f
+Shaving Brush,p,,p
+Chilli & Soya Sauces,oms,s,f
+Vermicelli,rdf,f,f
+"Glucose, Marie & Milk Biscuits",d,,ss
+Diapers & Wipes,bb,,bb
+Tomato Ketchup,oms,s,f
+Organic Rice & Rice Products,rd,r,f
+Other Oils,oms,o,f
+Hair Conditioner,p,,p
+Other Insect Repellent,h,,h
+Cut Vegetables,v,v,v
+Health Supplements,,,f
+Other Pooja Needs,m,,m
+Cleaning & Dust Cloth,hc,,hc
+Rice Flour,rdf,f,f
+Maida,rdf,f,f
+Organic Flours,rdf,f,f
+Regular Pasta,i,,f
+"Organic Salt, Sugar & Jaggery",oms,m,f
+Bottle & Tin Openers,k,,h
+Whole Grains,rdf,d,f
+Hand Wash,bath,,p
+Exotic Vegetables,v,v,v
+Shampoo,p,,p
+Chinese Noodles,i,,f
+Olive Oils,oms,o,f
+Liquid Detergent,hc,,h
+Hair Colors & Dyes,p,,p
+Shaving Blade & Razors,p,,p
+Ice Creams & Desserts,sb,s,ss
+Vinegar,f,,f
+Ladles & Spatulas,k,,
+Ready Mix,i,,f
+Aluminium Foil & Cling Wrap,k,,k
+"Muffins, Cookies & Rusk",b,,b
+Packaged Drinking Water,be,,be
+Agarbatti,m,,m
+Bakery & Breads,b,,b
+Other Spreads,oms,s,f
+Face Cream,p,,p
+Healthy & Digestive Biscuits,sb,b,ss
+Face Packs & Scrubs,p,,p
+Curd,d,,d
+Cotton & Bandages,med,,m
+Oats,bf,,f
+Honey,oms,s,f
+Toothpaste,p,,p
+Organic Masalas & Spices,oms,m,f
+Rodent Control,h,,h
+Butter & Cream,d,,d
+Ready Baking Mixes,f,miss,f
+Frozen Seafood,f,meat,f
+Mango Juices,be,,be
+Pasta & Noodles,i,,f
+Biscuits,sb,b,ss
+Ready To Eat & Cook,bf,,f
+Milk Drinks,d,,d
+Tissue Paper & Napkins,hc,,h
+Lip Care,p,,p
+Organic Dals & Pulses,rd,d,f
+Rasagulla & Gulab Jamun,sb,s,ss
+Facial Tissues,p,,p
+Milk,d,,d
+Salty Biscuits,sb,b,ss
+Ice Cream,sb,s,ss
+Cooking Sauce,oms,s,f
+Organic Dry Fruits,f,n,f
+Veg & Fruit,v,v,v
+Phenyles & Acids,hc,,hc
+Mustard Oils,oms,o,f
+Home & Air Freshener,h,,f
+Pain Relievers,med,,m
+Organic Branded Foods,f,miss,f
+Flakes,bf,,f
+Mouthwash,p,,p
+Mens Deo,p,,p
+Toilet Cleaners,hc,,hc
+Jams & Sauces,oms,s,f
+Ayurvedic,m,,m
+Soup,be,,f
+Ayurvedic Food,f,miss,f
+Sanitary Pads,p,,p
+Cutlery,k,,k
+Tomato Sauce,oms,s,f
+Vanaspati,oms,o,f
+Other Jams,oms,s,f
+Pet Food,m,,m
+Hand Sanitizer,p,,p
+Floor Cleaners,hc,,hc
+Frozen Veg Food,f,miss,f
+Pre & Post Wash Care,bath,,p
+Baking Ingredients,oms,m,f
+Glass Cleaners,hc,,hc
+"CFLs,cfls,7832553,2,0
+
+7831582,Channa Dal,channa-dal,7832491,2,0
+
+7832360,Cheese,cheese,7832363,2,0
+
+7831689,Chewing Gum,chewing-gum,7831685,2,0
+
+7832047,ChildrenS Books",,,m
+Frozen Chicken,f,meat,f
+Toilet Cleaning,hc,,hc
+Brushes & Scrubbers,hc,,hc
+Brooms & Dust Pans,hc,,hc
+Toffee & Candy,sb,s,ss
+Energy Drinks,be,,be
+Other Pickle,oms,s,f
+Buttermilk,d,,d
+Other Juices,be,,be
+Other Soft Drinks,be,,be
+Car Shampoo & Wax,p,,hc
+Antiseptics,med,,m
+Grooming,p,,p
+Energy Powders,rdf,f,p
+Organic Juices,be,,be
+Soups,be,,f
+Baby Cereal,bb,,bb
+Baby Care Accessories,bb,,bb
+Beverages,be,,be
+Foot Care,p,,p
+Snacks & Sweets,sb,s,ss
+Organic Baby Foods,bb,,bb
+Exam Boards,s,,s
+Car Freshener,p,,h
+"Scissors, Glue & Tape",s,,s
+Womens Deo,p,,p
+Office Stationery,s,,s
+Ready Masalas,oms,m,f
+Body Wash,bath,,p
+Fertilizers & Pesticides,m,,m
+Paneer & Tofu,d,,d
+Organic Breakfast Cereals,bf,,f
+Green Tea,f,tc,f
+Drain Cleaners,hc,,hc
+Toilet Paper,h,,hc
+Groundnut Oils,oms,o,f
+Mixed Fruit Jam,oms,s,f
+Fryums & Papad,f,miss,f
+Disposable Plates & Utensils,k,,k
+Containers,k,,k
+Colours ,k,,k
+"Cutters, Peelers & Scrapers",k,,k
+Battery,h,,h
+Chocolate,sb,s,ss
+Tea,f,tc,f
+Festive Gift Packs,m,,m
+Organic Edible Oils & Ghee,oms,o,f
+After Shave,p,,p
+Dairy & Cheese,d,,d
+Heat & Eat Ready Meals,f,miss,f
+Festive Gift Pack,m,,m
+Mukhwas & Mouth Freshener,p,,p
+Sanitary Aids,med,,p
+Pens ,s,,s
+Mango Pickle,oms,s,f
+Magazine,h,,h
+Printer Cartridges & Printing Paper,s,,s
+Body Lotion,p,,p
+Talc,p,,p
+Eye Care & Kajal,p,,p
+Cookery Books,m,,m
+Dishwash Liquids & Pastes,hc,,hc
