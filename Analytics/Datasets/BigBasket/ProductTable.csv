@@ -47,7 +47,7 @@ Bread,Food,Bakery
 Instant Noodles,Food,Instant
 Sooji & Rava,"Rice, Dhal and Flour",Flour
 Gourd & Cucumber,Vegetables and Fruits,Vegetables
-"Shaving Cream, Foam & Gels",Personal Care,Face Packs
+Shaving Cream Foam & Gels,Personal Care,Face Packs
 Brinjals,Vegetables and Fruits,Vegetables
 Hair Oil,Personal Care,Face Packs
 Ground Coffee,Beverages,Tea
@@ -62,7 +62,7 @@ Other Flours,"Rice, Dhal and Flour",Flour
 Shaving Brush,Personal Care,Face Packs
 Chilli & Soya Sauces,"Oil, Masala and Sauces",Sauces
 Vermicelli,"Rice, Dhal and Flour",Flour
-"Glucose, Marie & Milk Biscuits",Dairy Products,Dairy Products
+Glucose Marie & Milk Biscuits,Dairy Products,Dairy Products
 Diapers & Wipes,Miscellaneous,Baby Food and Care
 Tomato Ketchup,"Oil, Masala and Sauces",Sauces
 Organic Rice & Rice Products,"Rice, Dhal and Flour",Rice
@@ -77,7 +77,7 @@ Rice Flour,"Rice, Dhal and Flour",Flour
 Maida,"Rice, Dhal and Flour",Flour
 Organic Flours,"Rice, Dhal and Flour",Flour
 Regular Pasta,Food,Instant
-"Organic Salt,Sugar & Jaggery","Oil, Masala and Sauces",Masala
+Organic SaltSugar & Jaggery,"Oil, Masala and Sauces",Masala
 Bottle & Tin Openers,Kitchen Items,Tools
 Whole Grains,"Rice, Dhal and Flour",Dhal
 Hand Wash,Personal Care,Bath
@@ -93,7 +93,7 @@ Vinegar,"Oil, Masala and Sauces",Oil
 Ladles & Spatulas,Kitchen Items,Tools
 Ready Mix,Food,Instant
 Aluminium Foil & Cling Wrap,Kitchen Items,Utensil
-"Muffins, Cookies & Rusk",Food,Bakery
+Muffins Cookies & Rusk,Food,Bakery
 Packaged Drinking Water,Beverages,Drinks
 Agarbatti,Miscellaneous,Pooja
 Bakery & Breads,Food,Bakery
@@ -152,15 +152,7 @@ Frozen Veg Food,Food,Other
 Pre & Post Wash Care,Personal Care,Bath
 Baking Ingredients,"Oil, Masala and Sauces",Masala
 Glass Cleaners,Household Items,Cleaning
-"CFLs,cfls,7832553,2,0
-
-7831582,Channa Dal,channa-dal,7832491,2,0
-
-7832360,Cheese,cheese,7832363,2,0
-
-7831689,Chewing Gum,chewing-gum,7831685,2,0
-
-7832047,ChildrenS Books",Miscellaneous,Other
+Misc,Miscellaneous,Other
 Frozen Chicken,Food,Meat
 Toilet Cleaning,Household Items,Cleaning
 Brushes & Scrubbers,Household Items,Cleaning
@@ -185,7 +177,7 @@ Snacks & Sweets,Snacks and Biscuits,Sweets
 Organic Baby Foods,Miscellaneous,Baby Food and Care
 Exam Boards,Household Items,Stationery
 Car Freshener,Household Items,Cleaning
-"Scissors, Glue & Tape",Household Items,Stationery
+Scissors Glue & Tape,Household Items,Stationery
 Womens Deo,Personal Care,Body
 Office Stationery,Household Items,Stationery
 Ready Masalas,"Oil, Masala and Sauces",Masala
@@ -202,7 +194,7 @@ Fryums & Papad,Food,Other
 Disposable Plates & Utensils,Kitchen Items,Utensil
 Containers,Kitchen Items,Utensil
 Colours ,Miscellaneous,Pooja
-"Cutters, Peelers & Scrapers",Kitchen Items,Tools
+Cutters Peelers & Scrapers,Kitchen Items,Tools
 Battery,Household Items,Other
 Chocolate,Snacks and Biscuits,Candies
 Tea,Beverages,Tea
