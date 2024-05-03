@@ -1,0 +1,121 @@
+/********* Background data Analysis **
+No of Frames: 29000
+Data: Range, Signal, IR, Reflectivity from sensor
+*******/
+- Mean for each frame is calculated for the parameters Range, Signal, IR, Reflectivity
+- Correlation for each feature is performed
+- Mean for each channel in each frame is analysed
+- Point cloud is calculated for the parameters Range, Signal, IR, Reflectivity
+- Pairplot analysed
+
+To be done:
+- Check for Range2, SIGNAL2: check in the configuration
+
+/********** Experiment Data Analysis **********/
+Insights;
+- Points Range and Points Reflect are same
+- Point Signal Strength doesn't give much relation
+- Points IR is constant
+- MeanRange, MeanReflectivity, PointsRange shows non linear relation with smoke
+
+Linear Regression:
+- 13_02_24
+- All Mean, All Points
+	- MAE: 4, RMSE: 6
+- All Mean, All points except Sig and IR, All Variance
+	- MAE: 2.9, RMSE: 3.6
+- K Fold:
+	- Best: RMSE: 3.25, MAE: 2.5, Train RMSE: 3.75
+	
+- 14_02_24:
+- Added Q1, Med, Q3, Min, Max columns for each parameter Signal, Range, Reflectivity, IR
+- K Fold:
+	- Best: RMSE: 2.92, MAE: 2.2, Train RMSE: 3.5
+- Scaling:
+	- MinMaxScaler: RMSE: 3.25
+	- StandardScaler: RMSE: 3.21
+- VIF Calculated
+	- To be studied further
+	
+- 15_02_2024:
+- Applied Pricipal Component Regression
+	- Best: MAE=9.48, RMSE = 11.04, R2 = 0.79
+- Applied Partial Least Squares Regression
+	- MAE = 5.9, RMSE = 8.18, R2 = 0.88
+- Feature Selection
+	- Applied SelectKBest from Sklearn
+	- Top 5 performing features are Q3Range, MaxRange, MeanReflectivity, Q1Reflect, MinReflect
+	
+- 16_02_2024:
+- Applied Random Forest Regressor with scaling
+- Random Forest on Select K Features,  RMSE = 0.73
+- Random Forest on all Features, RMSE = 0.84
+
+
+19_02_2024:
+- Random Forest With KFold, RMSE = 0.29	
+- Applied Random Forest Regressor without scaling and KFold, RMSE = 0.4
+
+21_02_2024:
+- Applied Ridge regression 
+- Tuned hyperparameter alpha from 0.1 to 20, better result for alpha = 0.5
+- From GridSearchCV, CV without shuffling gives better highly variance result but CV with shuffle gives less variance result
+- Could not apply Stratified K Fold because of numerical target
+
+
+PCA Outcomes:
+- Reduced the dimensions to 2 which captures 86+9 = 95% of variance in the data
+
+
+To be done:
+- Identify features (Feature Engineering)
+- Lasso regression, Ridge regression
+- Analyse VIF
+- Multicollinearity Analysis
+
+
+/***************** Conferences and Journals ************************/
+National Conference: https://www.nationalconference.in/
+SFE: https://www.sfe.net.in/conf
+NIER: https://nier.in//conf/
+
+/************** Big Basket Data Analysis *****************/
+Tools and Technology: Tableau, Excel, Python, Machine Learning, Exploratory Data Analysis (EDA)
+Dataset:
+BigBasket Dataset 
+Data Cleaning:
+- Checked and Removed null values 
+- Renamed columns
+- Identified unique products in Excel and Added category and sub category for each product
+
+Exploratory Data Analysis:
+Performed in Tableau (Add Link)
+- No. of Transactions, No. of Customers
+- Time series sales analysis per category
+
+Market Basket Analysis;
+Lib: mlxtend, pandas, numpy
+Algorithms: apriori, fpgrowth, association rules
+Data Analysis:
+Created product categorical table using Transaction encoder
+Frequent itemsets are generated based on minimum support for the dataset using fpgrowth and apriori
+Generated association rules with minimum confidence using mlxtend
+Multiple metrics are studied for the generated rules such as support, confidence, lift, leverage, conviction and zhangs_metric
+Monthly MBA is performed and compared the rules between each month
+Product bundling is studied and the best combo products are generated based on the association rules
+
+
+Customer Sementation:
+Lib: sklearn, seaborn, matplotlib, pandas, numpy
+Algorithms: StandardScaler, KMeans, Principal Component Analysis (PCA)
+Data Analysis:
+Calculated LRFMPU for each customer => Length, Recency, Frequency, Monetary, Periodicity, Unique Products
+Applied Kmeans algorithm to cluster for each of LRFMPU 
+Optimum number of clusters for each parameter is decided upon Elbow method and Sihouette score
+
+PCA:
+In order to visualize the distribution of multi dimensional data i.e. LRFMPU, PCA is applied
+Created a pipeline with standard scaler and pca 
+fitted the data to pipeline and applied the transformation on the data
+Explained variance ratio for each of the principal component is studied
+ 
