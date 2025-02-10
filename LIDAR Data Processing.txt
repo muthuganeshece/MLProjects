@@ -3,3 +3,9 @@ In fast reactors, liquid metal sodium is used as coolant due to its high conduct
 Liquid sodium exothermically reacts with air/water and generates invisible sodium aerosols which.
 The concentration
 
+
+Kun Huang, Yanman Li, Xiaoyan Zhang, Lei Liu, Yanbin Zhu & Xin Meng: Research on power control strategy of household-level electric power router based on hybrid energy storage droop control
+
+Md. Murshadul Hoque1 and Shariful Alam: A Temperature Based Automatic Power Controller for ElectricalDevices
+
+A. HARI PRASAD, B. S. KARIYAPPA, R. NAGARAJ, S. K.THAKUR: Micro Controller Based Ac Power Controller
