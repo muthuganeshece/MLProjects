@@ -1,3 +1,14 @@
+Dataset Preparation:
+- Split the full file into 2 sections
+	- Smoke Generation
+		- Statistical calculation for 10 FPS
+	- Smoke Degeneration
+		- Statistical calculation for 1 FPS
+- Target imputation
+	
+
+
+
 LIDAR system based Smoke concentration measurement for reactor building
 In fast reactors, liquid metal sodium is used as coolant due to its high conductivity.
 Liquid sodium exothermically reacts with air/water and generates invisible sodium aerosols which.
