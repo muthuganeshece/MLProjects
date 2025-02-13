@@ -24,9 +24,12 @@ Dataset Preparation:
 		- Apply cubic interpolation between all the samples with respect to time
 	- Merge target imputation with feature data
 - Exp4:
-	- 
-	
-
+	- Normalisation value to be calculated from BG data as the smoke generation doesn't have initial data
+	- 00: Smoke generation data, statistical measurement performed at 10FPS data
+	- 01 - 10: Smoke degeneration data, statistical measurement performed at 1FPS data
+	- Target imputation
+		- Apply cubic interpolation between all the samples with respect to time
+		- Extrapolate the samples for extra frames in lidar data
 
 
 LIDAR system based Smoke concentration measurement for reactor building
