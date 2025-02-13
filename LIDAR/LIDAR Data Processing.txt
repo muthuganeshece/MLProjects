@@ -1,10 +1,30 @@
+
+
+
 Dataset Preparation:
-- Split the full file into 2 sections
-	- Smoke Generation
-		- Statistical calculation for 10 FPS
-	- Smoke Degeneration
-		- Statistical calculation for 1 FPS
-- Target imputation
+- Sensor Configuration:
+	- Dimension of each parameter: 10 X 2048
+	- 140 to 220 degree
+	- Extract only the respective pixel data
+- Assume, 
+	- Exp1: 18 Sep
+	- Exp2: 20 Sep
+	- Exp3: 20 Oct
+	- Exp4: 08 Apr
+- Exp1 to Exp3:
+	- Ignore BG data as it is not consistent
+	- Split the full file into 2 sections
+		- Smoke Generation
+			- Statistical calculation for 10 FPS
+		- Smoke Degeneration
+			- Statistical calculation for 1 FPS
+		- Normalize all the values based on the average of first 50 samples from Smoke generation
+		- Identify and count outliers
+	- Target imputation
+		- Apply cubic interpolation between all the samples with respect to time
+	- Merge target imputation with feature data
+- Exp4:
+	- 
 	
 
 
