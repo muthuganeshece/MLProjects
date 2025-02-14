@@ -31,6 +31,15 @@ Dataset Preparation:
 		- Apply cubic interpolation between all the samples with respect to time
 		- Extrapolate the samples for extra frames in lidar data
 
+EDA:
+- Insignificant parameters for model Refer to Data.xlsx
+- Exp0/4:
+	- Significant drop observed in IR reading for some samples
+	- As IR is one of the significant features, the outlier need to be imputed with mean values
+
+Model:
+
+
 
 LIDAR system based Smoke concentration measurement for reactor building
 In fast reactors, liquid metal sodium is used as coolant due to its high conductivity.
