@@ -38,6 +38,11 @@ EDA:
 	- As IR is one of the significant features, the outlier need to be imputed with mean values
 
 Model:
+- Linear Regression
+- polynomial Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
 
 
 
