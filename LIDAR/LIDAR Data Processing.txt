@@ -62,3 +62,36 @@ The concentration
 
 
 Reliable machine learning models for estimating effective software development efforts: A comparative analysis
+
+Introduction
+Related Work
+Experiments
+	- Experimental Procedure
+	- Experimental Data
+	- Dataset Overview
+	- Sensor Specifications
+		- Signal Photon, IR, etc
+
+Machine Learning Models
+Evaluation Metrics
+
+Methodology:
+	- Lidar Data Extraction
+	- Preparation of Dataset
+		- Background Data Subtraction
+		- Data Augmentation
+		- Noise Removal
+	- EDA
+		- UVA
+		- Correlation with Target
+		- Feature Independency Test
+		- Outlier Analysis
+	- Feature Engineering
+		- Scaling
+		- PCA
+Results and Discussions:
+	- Variables Influencing the estimation
+	- Residual Plot Analysis
+
+Future Work
+Conclusion
