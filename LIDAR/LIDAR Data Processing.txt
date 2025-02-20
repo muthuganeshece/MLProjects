@@ -73,7 +73,7 @@ Experiments
 		- Signal Photon, IR, etc
 
 Machine Learning Models
-Evaluation Metrics
+
 
 Methodology:
 	- Lidar Data Extraction
@@ -90,8 +90,15 @@ Methodology:
 		- Scaling
 		- PCA
 Results and Discussions:
+	- Evaluation Metrics
 	- Variables Influencing the estimation
 	- Residual Plot Analysis
 
 Future Work
 Conclusion
+
+Intro:
+IDAR (light detection and ranging), as the name sug-gests makes use of the pulsed laser to detect distance,velocity, and angle with greater accuracy. Lidar is a vitalsensor for level five autonomous driving architecture. Itcan easily track lane marks, classify objects and can also beused to precisely align an AV (autonomous vehicle) relativeto a high-definition map. Lidar works on the pulsed laserby throwing a pulse light on the target and retrieve thereflected pulse which is then used to measure distance [14].Lidar is considered as a key sensor in automotive industrybecause of its wide range of properties such as Object de-tection and depth imaging. Range, types of lasers used anddetector material which includes photodetector play a vitalrole in determining the performance specification of lidar.Besides hardware and control circuitry, data analysis andprocessing are also key property in performance specifica-tion of an automotive lidar  
+Ref:Analysis of LIDAR Data
+
+
